@@ -4,10 +4,15 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration,
+  useHref,
+  useNavigate,
+  Link as RemixLink
 } from "@remix-run/react";
 import type { LinksFunction } from "@remix-run/node";
 
 import "./tailwind.css";
+import { HeroUIProvider, Link, Navbar, NavbarBrand, NavbarContent, NavbarItem } from '@heroui/react';
+
 
 export const links: LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -24,7 +29,7 @@ export const links: LinksFunction = () => [
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" className='dark'>
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -32,6 +37,16 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Links />
       </head>
       <body>
+        <Navbar>
+          <NavbarBrand>
+            <p className='font-bold'>FireCast 🔥</p>
+          </NavbarBrand>
+          <NavbarContent justify='center'>
+            <NavbarItem>
+              <Link className='font-bold' as={RemixLink} to='/logistic-model'>Modelo logístico</Link>
+            </NavbarItem>
+          </NavbarContent>
+        </Navbar>
         {children}
         <ScrollRestoration />
         <Scripts />
@@ -41,5 +56,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
 }
 
 export default function App() {
-  return <Outlet />;
+  return (
+    <HeroUIProvider navigate={useNavigate} useHref={useHref}>
+      <Outlet />
+    </HeroUIProvider>
+  );
 }
