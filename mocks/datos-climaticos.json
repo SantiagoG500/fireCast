@@ -1,3 +1,5 @@
+
+
 [
   {
     "mes": "Enero",
@@ -8,7 +10,7 @@
     "interaccion_temp_viento": 0.1537,
     "interaccion_temp_sequedad": 0.2226,
     "coeficiente_total": 1.229,
-    "tasa_de_cambio_K": 1.5523,
+    "tasa_de_cambio_k": 1.5523,
     "funcion_logistica_aplicada": 11.21
   },
   {
@@ -20,7 +22,7 @@
     "interaccion_temp_viento": 0.154,
     "interaccion_temp_sequedad": 0.176,
     "coeficiente_total": 1.149,
-    "tasa_de_cambio_K": 1.4306,
+    "tasa_de_cambio_k": 1.4306,
     "funcion_logistica_aplicada": 8.52
   },
   {
@@ -32,7 +34,7 @@
     "interaccion_temp_viento": 0.1539,
     "interaccion_temp_sequedad": 0.171,
     "coeficiente_total": 1.185,
-    "tasa_de_cambio_K": 1.46202,
+    "tasa_de_cambio_k": 1.46202,
     "funcion_logistica_aplicada": 9.15
   },
   {
@@ -44,7 +46,7 @@
     "interaccion_temp_viento": 0.145,
     "interaccion_temp_sequedad": 0.1044,
     "coeficiente_total": 1.076,
-    "tasa_de_cambio_K": 1.28596,
+    "tasa_de_cambio_k": 1.28596,
     "funcion_logistica_aplicada": 6.09
   },
   {
@@ -56,7 +58,7 @@
     "interaccion_temp_viento": 0.1425,
     "interaccion_temp_sequedad": 0.0798,
     "coeficiente_total": 1.033,
-    "tasa_de_cambio_K": 1.21882,
+    "tasa_de_cambio_k": 1.21882,
     "funcion_logistica_aplicada": 5.20
   },
   {
@@ -68,7 +70,7 @@
     "interaccion_temp_viento": 0.1377,
     "interaccion_temp_sequedad": 0.0816,
     "coeficiente_total": 0.967,
-    "tasa_de_cambio_K": 1.1506,
+    "tasa_de_cambio_k": 1.1506,
     "funcion_logistica_aplicada": 4.42
   },
   {
@@ -80,7 +82,7 @@
     "interaccion_temp_viento": 0.1344,
     "interaccion_temp_sequedad": 0.0864,
     "coeficiente_total": 0.936,
-    "tasa_de_cambio_K": 1.12128,
+    "tasa_de_cambio_k": 1.12128,
     "funcion_logistica_aplicada": 4.12
   },
   {
@@ -92,7 +94,7 @@
     "interaccion_temp_viento": 0.14,
     "interaccion_temp_sequedad": 0.09,
     "coeficiente_total": 0.946,
-    "tasa_de_cambio_K": 1.139,
+    "tasa_de_cambio_k": 1.139,
     "funcion_logistica_aplicada": 4.30
   },
   {
@@ -104,7 +106,7 @@
     "interaccion_temp_viento": 0.1431,
     "interaccion_temp_sequedad": 0.1272,
     "coeficiente_total": 1.033,
-    "tasa_de_cambio_K": 1.26196,
+    "tasa_de_cambio_k": 1.26196,
     "funcion_logistica_aplicada": 5.76
   },
   {
@@ -116,7 +118,7 @@
     "interaccion_temp_viento": 0.1375,
     "interaccion_temp_sequedad": 0.121,
     "coeficiente_total": 1.039,
-    "tasa_de_cambio_K": 1.2579,
+    "tasa_de_cambio_k": 1.2579,
     "funcion_logistica_aplicada": 5.70
   },
   {
@@ -128,7 +130,7 @@
     "interaccion_temp_viento": 0.14,
     "interaccion_temp_sequedad": 0.112,
     "coeficiente_total": 1.05,
-    "tasa_de_cambio_K": 1.2628,
+    "tasa_de_cambio_k": 1.2628,
     "funcion_logistica_aplicada": 5.77
   },
   {
@@ -140,7 +142,7 @@
     "interaccion_temp_viento": 0.1458,
     "interaccion_temp_sequedad": 0.1728,
     "coeficiente_total": 1.144,
-    "tasa_de_cambio_K": 1.41616,
+    "tasa_de_cambio_k": 1.41616,
     "funcion_logistica_aplicada": 8.24
   }
 ]
