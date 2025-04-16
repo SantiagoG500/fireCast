@@ -29,7 +29,7 @@ export const links: LinksFunction = () => [
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className='dark'>
+    <html lang="en" className='antialiased dark'>
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -43,7 +43,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
           </NavbarBrand>
           <NavbarContent justify='center'>
             <NavbarItem>
-              <Link className='font-bold' as={RemixLink} to='/logistic-model'>Modelo logístico</Link>
+              <Link className='font-bold' as={RemixLink} to='/simulator'>Modelo logístico</Link>
             </NavbarItem>
           </NavbarContent>
         </Navbar>
