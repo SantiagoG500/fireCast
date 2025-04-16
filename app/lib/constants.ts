@@ -9,5 +9,5 @@ export const CLIMATE_VARIABLES = [
   "tasa_de_cambio_K",
 ]
 export const LOGISTIC_FUNCTION_VARIABLES = [
-  "funcion logistica aplicada",
+  "funcion_logistica_aplicada",
 ]
